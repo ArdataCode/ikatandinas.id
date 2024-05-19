@@ -1,0 +1,162 @@
+{
+    "version": "0.4",
+    "title": "Login",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "elementor_pro_conditions": [
+            "include\/general"
+        ],
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro.",
+            "This template will display on: Entire Site."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "11ad23f3",
+            "settings": {
+                "content_position": "middle",
+                "structure": "20"
+            },
+            "elements": [
+                {
+                    "id": "56ce187f",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 41.96399999999999863575794734060764312744140625,
+                        "content_position": "center",
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/edison.elipso.site\/wp-content\/uploads\/sites\/19\/2020\/12\/Processing.png",
+                            "id": 197
+                        },
+                        "background_position": "center center",
+                        "background_repeat": "no-repeat",
+                        "background_size": "initial",
+                        "background_bg_width": {
+                            "unit": "%",
+                            "size": 87,
+                            "sizes": []
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "20",
+                            "right": "20",
+                            "bottom": "20",
+                            "left": "20",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "143656",
+                            "settings": {
+                                "space": {
+                                    "unit": "vh",
+                                    "size": 33,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "spacer",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "5d8ffa54",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 58.03600000000000136424205265939235687255859375,
+                        "padding": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "40",
+                            "bottom": "40",
+                            "left": "40",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "48836657",
+                            "settings": {
+                                "title": "Log In"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "2f6c8a09",
+                            "settings": {
+                                "show_labels": "",
+                                "button_text": "Log In",
+                                "redirect_after_login": "yes",
+                                "redirect_after_logout": "yes",
+                                "user_label": "Username or Email Address",
+                                "user_placeholder": "Username or Email Address",
+                                "password_label": "Password",
+                                "password_placeholder": "Password",
+                                "field_background_color": "#FFFFFF",
+                                "field_border_color": "#FFFFFF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "login",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": 784,
+            "sizes": []
+        },
+        "height_type": "custom",
+        "height": {
+            "unit": "px",
+            "size": 519,
+            "sizes": []
+        },
+        "content_position": "center",
+        "entrance_animation": "zoomIn",
+        "exit_animation": "zoomIn",
+        "background_background": "classic",
+        "border_radius": {
+            "unit": "px",
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12",
+            "isLinked": true
+        },
+        "box_shadow_box_shadow": {
+            "horizontal": 2,
+            "vertical": 8,
+            "blur": 23,
+            "spread": 3,
+            "color": "rgba(0, 0, 0, 0.24)"
+        },
+        "__globals__": {
+            "background_color": "globals\/colors?id=dd34a3f"
+        }
+    }
+}

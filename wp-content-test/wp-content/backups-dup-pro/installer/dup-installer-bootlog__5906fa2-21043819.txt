@@ -1,0 +1,35 @@
+[Feb 21 05:57:22] 
+[Feb 21 05:57:22] ==DUPLICATOR INSTALLER BOOTSTRAP v4.5.9.1==
+[Feb 21 05:57:22] ----------------------------------------------------
+[Feb 21 05:57:22] Installer bootstrap start
+[Feb 21 05:57:22] Target dir dup folder \"/home/u1571057/public_html/ikatandinas.id/dup-installer\"
+[Feb 21 05:57:22] Manual extract found so not going to extract /home/u1571057/public_html/ikatandinas.id/dup-installer dir
+[Feb 21 05:57:22] EXTRACT /home/u1571057/public_html/ikatandinas.id/dup-installer dir
+[Feb 21 05:57:22] Successfully deleted the file /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-installer-log__[HASH].txt
+[Feb 21 05:57:22] NOTICE: Didn't need to extract the installer.
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/addons<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/api<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/assets<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/classes<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/ctrls<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/favicon<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/libs<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/original_files_[HASH]<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/src<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/templates<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/vendor<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/vendor-prefixed<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/.user.ini<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-archive__[HASH].txt<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-database__[HASH].sql<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-installer-csrf__[HASH].txt<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-installer-notices__[HASH].json<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-params__[HASH].json<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-scan__[HASH].json<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/index.php<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/main.installer.php<br/>
+[Feb 21 05:57:22] Set permissions of /home/u1571057/public_html/ikatandinas.id/dup-installer/php_error__[HASH].log<br/>
+[Feb 21 05:57:22] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://ikatandinas.id/dup-installer/main.installer.php

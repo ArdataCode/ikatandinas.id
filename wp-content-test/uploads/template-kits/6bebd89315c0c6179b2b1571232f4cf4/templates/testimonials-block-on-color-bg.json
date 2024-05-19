@@ -1,0 +1,269 @@
+{
+    "version": "0.4",
+    "title": "Testimonials Block on Color Bg",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-testimonial",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "3e9cde80",
+            "settings": {
+                "background_background": "gradient",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 160,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "20",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": "globals\/colors?id=4424fe4",
+                    "background_color_b": "globals\/colors?id=c3c724c"
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "0",
+                    "bottom": "60",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "_title": "Testimonials",
+                "margin": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": 0,
+                    "bottom": "80",
+                    "left": 0,
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "1b629c8",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "align_tablet": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "77b9f27f",
+                            "settings": {
+                                "title": "What early learners say about this course",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "200",
+                                    "bottom": "0",
+                                    "left": "200",
+                                    "isLinked": false
+                                },
+                                "_margin_tablet": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding_tablet": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "40",
+                                    "bottom": "0",
+                                    "left": "40",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "463535fc",
+                            "settings": {
+                                "slides": [
+                                    {
+                                        "content": "\"Fusce aliquet, justo quis laoreet rhoncus, lectus ipsum iaculis metus, ut venenatis purus orci id purus. Mauris purus massa, fringilla id pretium in, gravida id lectus. Ut tincidunt, libero euismod tempus tempor, urna ligula dignissim metus, a efficitur diam nisi nec nisi. Nam nec commodo augue\"",
+                                        "name": "Melinda Korn",
+                                        "title": "Web Designer",
+                                        "image": {
+                                            "url": "https:\/\/edison.elipso.site\/wp-content\/uploads\/sites\/19\/2020\/12\/woman-color-hair-with-blue-colored-hairstyle-ower-JVUJX8C.jpg",
+                                            "id": 160
+                                        },
+                                        "_id": "23cae02"
+                                    },
+                                    {
+                                        "content": "\"Aenean eget quam sed felis finibus feugiat at et nunc. Aliquam nulla massa, tempus id egestas sed, porta quis odio. Morbi quis orci volutpat, dapibus orci nec, venenatis elit. Donec ac ultrices enim, sit amet porttitor tellus. Proin et arcu sed lectus lacinia semper. Vestibulum ut nisi nisi. Proin malesuada pulvinar dolor. Proin eros velit, rhoncus quis elementum eget, efficitur ac ipsum. Curabitur sollicitudin, nunc ac eleifend posuere, neque est malesuada felis, vitae luctus mi urna et quam. Nullam consectetur consectetur felis vitae sollicitudin. Class aptent taciti sociosqu\"",
+                                        "name": "Francisco Gomez",
+                                        "title": "Developer",
+                                        "image": {
+                                            "url": "http:\/\/acades.elipso.site\/wp-content\/uploads\/sites\/19\/2020\/12\/confident-young-man-standing-with-arms-crossed-aga-7UX3CJB.jpg",
+                                            "id": 144
+                                        },
+                                        "_id": "911dab9"
+                                    },
+                                    {
+                                        "content": "\"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam semper efficitur nisi ut tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam justo augue, cursus ut orci vel, pulvinar accumsan magna. Nullam eu dapibus nunc\"",
+                                        "name": "Lile Beatrice",
+                                        "title": "CEO",
+                                        "image": {
+                                            "url": "https:\/\/edison.elipso.site\/wp-content\/uploads\/sites\/19\/2020\/12\/happy-arab-woman-having-business-conference-online-2UC468R.jpg",
+                                            "id": 151
+                                        },
+                                        "_id": "66b965a"
+                                    }
+                                ],
+                                "layout": "image_stacked",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "show_arrows": "",
+                                "slide_padding": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "30",
+                                    "bottom": "30",
+                                    "left": "30",
+                                    "isLinked": true
+                                },
+                                "content_typography_typography": "custom",
+                                "content_typography_font_family": "Lato",
+                                "content_typography_font_weight": "500",
+                                "name_typography_typography": "custom",
+                                "name_typography_font_family": "Barlow Semi Condensed",
+                                "name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "name_typography_font_weight": "600",
+                                "image_size": {
+                                    "unit": "px",
+                                    "size": 83,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "40",
+                                    "bottom": "60",
+                                    "left": "40",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "name_color": "globals\/colors?id=907b5a2",
+                                    "title_color": "globals\/colors?id=907b5a2"
+                                },
+                                "image_size_size": "medium",
+                                "content_gap": {
+                                    "unit": "px",
+                                    "size": 38,
+                                    "sizes": []
+                                },
+                                "name_typography_font_style": "normal",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_family": "Lato",
+                                "title_typography_font_weight": "600",
+                                "title_typography_font_style": "normal",
+                                "_background_background": "classic",
+                                "_background_image": {
+                                    "url": "https:\/\/edison.elipso.site\/wp-content\/uploads\/sites\/19\/2020\/12\/quote-left2.png",
+                                    "id": 1488
+                                },
+                                "_background_position": "top left",
+                                "_background_repeat": "no-repeat",
+                                "_background_size": "initial",
+                                "_background_bg_width": {
+                                    "unit": "%",
+                                    "size": 21,
+                                    "sizes": []
+                                },
+                                "content_color": "#D2D3D5",
+                                "title_color": "#485870",
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 8,
+                                    "sizes": []
+                                },
+                                "image_gap": {
+                                    "unit": "px",
+                                    "size": 6,
+                                    "sizes": []
+                                },
+                                "arrows_size": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "arrows_color": "#FFFFFF",
+                                "pagination_color": "#FFFFFF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "testimonial-carousel",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes",
+        "background_background": "classic",
+        "__globals__": {
+            "background_color": "globals\/colors?id=dd34a3f"
+        },
+        "template": "elementor_canvas"
+    }
+}

@@ -1,0 +1,465 @@
+[06-Feb-2024 06:29:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/ujianori/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/ujianori/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/ujianori/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/ujianori/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[09-Feb-2024 21:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/ujianori/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/ujianori/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/ujianori/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/ujianori/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[15-Feb-2024 21:26:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/ujianori/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/ujianori/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/ujianori/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/ujianori/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/ujianori/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/ujianori/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[20-Feb-2024 05:49:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[21-Feb-2024 04:16:51 UTC] Caught error while attempting to refresh plugin update status: Cannot use object of type WP_Error as array
+[21-Feb-2024 04:17:02 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/ikatandinas.id/wp-includes/update.php on line 205
+[21-Feb-2024 04:17:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/ikatandinas.id/wp-includes/update.php on line 443
+[21-Feb-2024 04:17:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/ikatandinas.id/wp-includes/update.php on line 443
+[27-Feb-2024 00:38:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[09-Mar-2024 00:35:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[12-Mar-2024 00:47:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[13-Mar-2024 14:39:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[21-Mar-2024 02:45:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[22-Mar-2024 14:39:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[27-Mar-2024 02:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[28-Mar-2024 14:38:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Apr-2024 14:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 14:40:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[11-Apr-2024 02:18:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[12-Apr-2024 14:37:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[15-Apr-2024 14:38:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[17-Apr-2024 02:19:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[18-Apr-2024 14:37:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[20-Apr-2024 02:16:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[24-Apr-2024 02:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[25-Apr-2024 02:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[26-Apr-2024 02:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[30-Apr-2024 14:41:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[02-May-2024 02:20:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[15-May-2024 14:38:29 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/ikatandinas.id/wp-includes/update.php on line 205
+[15-May-2024 14:38:36 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/ikatandinas.id/wp-includes/update.php on line 443
+[15-May-2024 14:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[17-May-2024 02:30:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/ikatandinas.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/landingu/ikatandinas.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/landingu/ikatandinas.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/landingu/ikatandinas.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/landingu/ikatandinas.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/PHPMailer/PHPMailer.php on line 881

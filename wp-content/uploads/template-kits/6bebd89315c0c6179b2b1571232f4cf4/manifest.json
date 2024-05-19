@@ -1,0 +1,2177 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Edison",
+    "page_builder": "elementor",
+    "kit_version": "1.0.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.png",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.co",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "All courses",
+            "screenshot": "screenshots\/all-courses.jpg",
+            "source": "templates\/all-courses.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/all-courses\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Course description",
+            "screenshot": "screenshots\/course-description.jpg",
+            "source": "templates\/course-description.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/course-description\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Prices",
+            "screenshot": "screenshots\/prices.jpg",
+            "source": "templates\/prices.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/prices\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/events\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Media Library",
+            "screenshot": "screenshots\/media-library.jpg",
+            "source": "templates\/media-library.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/media-library\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Journal",
+            "screenshot": "screenshots\/journal.jpg",
+            "source": "templates\/journal.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/?elementor_library=journal",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/?elementor_library=single-post",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Teachers",
+            "screenshot": "screenshots\/teachers.jpg",
+            "source": "templates\/teachers.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/teachers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search page",
+            "screenshot": "screenshots\/search-page.png",
+            "source": "templates\/search-page.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/?elementor_library=search-page",
+            "type": "search-results",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-search",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "search-results",
+                "elementor_pro_conditions": [
+                    "include\/archive\/search"
+                ],
+                "additional_template_information": [
+                    "This is a \"Search Results\" template for Elementor Pro.",
+                    "This template will display on: Search Results."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Hero Lottie Animation Block",
+            "screenshot": "screenshots\/header-hero-lottie-animation-block.png",
+            "source": "templates\/header-hero-lottie-animation-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/header-hero-lottie-animation-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Course Boxes Block Style 2",
+            "screenshot": "screenshots\/course-boxes-block-style-2.png",
+            "source": "templates\/course-boxes-block-style-2.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/course-boxes-block-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Info Block",
+            "screenshot": "screenshots\/about-info-block.png",
+            "source": "templates\/about-info-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/about-info-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Video Grid Block",
+            "screenshot": "screenshots\/video-grid-block.png",
+            "source": "templates\/video-grid-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/video-grid-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Video With Description Block",
+            "screenshot": "screenshots\/video-with-description-block.png",
+            "source": "templates\/video-with-description-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/video-with-description-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Courses Box Column Description Block",
+            "screenshot": "screenshots\/courses-box-column-description-block.png",
+            "source": "templates\/courses-box-column-description-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/courses-box-column-description-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Subscribe Form CTA Block",
+            "screenshot": "screenshots\/subscribe-form-cta-block.png",
+            "source": "templates\/subscribe-form-cta-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/subscribe-form-cta-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Form Block",
+            "screenshot": "screenshots\/contact-form-block.png",
+            "source": "templates\/contact-form-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/contact-form-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ Accordion Block",
+            "screenshot": "screenshots\/faq-accordion-block.png",
+            "source": "templates\/faq-accordion-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/faq-accordion-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Course Registration Form Block",
+            "screenshot": "screenshots\/course-registration-form-block.png",
+            "source": "templates\/course-registration-form-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/course-registration-form-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Teachers Team Block",
+            "screenshot": "screenshots\/teachers-team-block.png",
+            "source": "templates\/teachers-team-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/teachers-team-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-team",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Program Course Description Block",
+            "screenshot": "screenshots\/program-course-description-block.png",
+            "source": "templates\/program-course-description-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/course-or-event-program-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Course Boxes Block Style 1",
+            "screenshot": "screenshots\/course-boxes-block-style-1.png",
+            "source": "templates\/course-boxes-block-style-1.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/course-boxes-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Page Title",
+            "screenshot": "screenshots\/page-title.png",
+            "source": "templates\/page-title.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/page-header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Events Boxes Block",
+            "screenshot": "screenshots\/events-boxes-block.png",
+            "source": "templates\/events-boxes-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/events-boxes-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Event with Coutner Block",
+            "screenshot": "screenshots\/event-with-coutner-block.png",
+            "source": "templates\/event-with-coutner-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/event-with-coutner-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Infosection Block Style 2",
+            "screenshot": "screenshots\/infosection-block-style-2.png",
+            "source": "templates\/infosection-block-style-2.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/infosection-block-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Infosection Block",
+            "screenshot": "screenshots\/infosection-block.png",
+            "source": "templates\/infosection-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/infosection-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Login",
+            "screenshot": "screenshots\/login.png",
+            "source": "templates\/login.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/?elementor_library=login",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Edison footer",
+            "screenshot": "screenshots\/edison-footer.png",
+            "source": "templates\/edison-footer.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/?elementor_library=edison-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Hero Block",
+            "screenshot": "screenshots\/hero-block.png",
+            "source": "templates\/hero-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/hero-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Prices Tables Block",
+            "screenshot": "screenshots\/prices-tables-block.png",
+            "source": "templates\/prices-tables-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/prices-tables-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials Block on White Bg",
+            "screenshot": "screenshots\/testimonials-block-on-white-bg.png",
+            "source": "templates\/testimonials-block-on-white-bg.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/testimonials-block-on-white-bg\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Features Info-boxes Block",
+            "screenshot": "screenshots\/features-info-boxes-block.png",
+            "source": "templates\/features-info-boxes-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/features-info-boxes-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials and Info Block banner",
+            "screenshot": "screenshots\/testimonials-and-info-block-banner.png",
+            "source": "templates\/testimonials-and-info-block-banner.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/testimonials-and-info-block-banner\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Banner Block Style 5",
+            "screenshot": "screenshots\/banner-block-style-5.png",
+            "source": "templates\/banner-block-style-5.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/banner-block-style-5\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Banner Block Style 4",
+            "screenshot": "screenshots\/banner-block-style-4.png",
+            "source": "templates\/banner-block-style-4.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/banner-block-style-4\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Banner Block Style 3",
+            "screenshot": "screenshots\/banner-block-style-3.png",
+            "source": "templates\/banner-block-style-3.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/banner-block-style-3\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Banner Block Style 2",
+            "screenshot": "screenshots\/banner-block-style-2.png",
+            "source": "templates\/banner-block-style-2.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/banner-block-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Banner Block Style 1",
+            "screenshot": "screenshots\/banner-block-style-1.png",
+            "source": "templates\/banner-block-style-1.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/banner-block-style-1\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials Block on Color Bg",
+            "screenshot": "screenshots\/testimonials-block-on-color-bg.png",
+            "source": "templates\/testimonials-block-on-color-bg.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/testimonials-block-on-color-bg\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Heading Block",
+            "screenshot": "screenshots\/heading-block.png",
+            "source": "templates\/heading-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/heading-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Columns Info-boxes Block",
+            "screenshot": "screenshots\/columns-info-boxes-block.png",
+            "source": "templates\/columns-info-boxes-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/columns-info-boxes-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Counter Block",
+            "screenshot": "screenshots\/counter-block.png",
+            "source": "templates\/counter-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/counter-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-countdown",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Grid Info-boxes Block",
+            "screenshot": "screenshots\/grid-info-boxes-block.png",
+            "source": "templates\/grid-info-boxes-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/grid-info-boxes-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Info-boxes with Buttons Block",
+            "screenshot": "screenshots\/info-boxes-with-buttons-block.png",
+            "source": "templates\/info-boxes-with-buttons-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/info-boxes-with-buttons-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Hero Img Block",
+            "screenshot": "screenshots\/header-hero-img-block.png",
+            "source": "templates\/header-hero-img-block.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/header-hero-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Form Block Style 2",
+            "screenshot": "screenshots\/contact-form-block-style-2.png",
+            "source": "templates\/contact-form-block-style-2.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/template-kit\/contact-form-block-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header menu edison",
+            "screenshot": "screenshots\/header-menu-edison.png",
+            "source": "templates\/header-menu-edison.json",
+            "preview_url": "https:\/\/edison.templatekit.co\/?elementor_library=header-menu-edison",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Selection Lite",
+            "version": "1.6",
+            "file": "selection-lite\/selection-lite.php",
+            "author": "Merkulove"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.4.8",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "08.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2021\/01\/08-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/header-hero-lottie-animation-block.json",
+                    "name": "Header Hero Lottie Animation Block"
+                },
+                {
+                    "source": "templates\/counter-block.json",
+                    "name": "Counter Block"
+                },
+                {
+                    "source": "templates\/header-hero-img-block.json",
+                    "name": "Header Hero Img Block"
+                }
+            ],
+            "filesize": 15049,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-bubbles-colorful-backgrounds-vol-01-DWJZ3B"
+        },
+        {
+            "filename": "Ready-Made-Illustration-Color-5-1.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/Ready-Made-Illustration-Color-5-1-800x510.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/about-info-block.json",
+                    "name": "About Info Block"
+                },
+                {
+                    "source": "templates\/hero-block.json",
+                    "name": "Hero Block"
+                }
+            ],
+            "filesize": 89662,
+            "dimensions": [
+                1400,
+                892
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/3d-digital-marketing-illustration-N2UZFBD"
+        },
+        {
+            "filename": "7dfb75e8db64610b4d4ed4f62d4b0064275f5f68.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/7dfb75e8db64610b4d4ed4f62d4b0064275f5f68.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials-and-info-block-banner.json",
+                    "name": "Testimonials and Info Block banner"
+                }
+            ],
+            "filesize": 19982,
+            "dimensions": [
+                516,
+                189
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/digital-wallet-3d-illustrations-part-2-NGLASK3"
+        },
+        {
+            "filename": "woman-color-hair-with-blue-colored-hairstyle-ower-JVUJX8C.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/woman-color-hair-with-blue-colored-hairstyle-ower-JVUJX8C-800x674.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/all-courses.json",
+                    "name": "All courses"
+                },
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-white-bg.json",
+                    "name": "Testimonials Block on White Bg"
+                },
+                {
+                    "source": "templates\/testimonials-and-info-block-banner.json",
+                    "name": "Testimonials and Info Block banner"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-color-bg.json",
+                    "name": "Testimonials Block on Color Bg"
+                }
+            ],
+            "filesize": 57042,
+            "dimensions": [
+                1200,
+                1011
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JVUJX8C"
+        },
+        {
+            "filename": "confident-young-man-standing-with-arms-crossed-aga-7UX3CJB.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/confident-young-man-standing-with-arms-crossed-aga-7UX3CJB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/all-courses.json",
+                    "name": "All courses"
+                },
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-white-bg.json",
+                    "name": "Testimonials Block on White Bg"
+                },
+                {
+                    "source": "templates\/testimonials-and-info-block-banner.json",
+                    "name": "Testimonials and Info Block banner"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-color-bg.json",
+                    "name": "Testimonials Block on Color Bg"
+                }
+            ],
+            "filesize": 26467,
+            "dimensions": [
+                605,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7UX3CJB"
+        },
+        {
+            "filename": "happy-arab-woman-having-business-conference-online-2UC468R.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/happy-arab-woman-having-business-conference-online-2UC468R-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/all-courses.json",
+                    "name": "All courses"
+                },
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/event-with-coutner-block.json",
+                    "name": "Event with Coutner Block"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-white-bg.json",
+                    "name": "Testimonials Block on White Bg"
+                },
+                {
+                    "source": "templates\/testimonials-and-info-block-banner.json",
+                    "name": "Testimonials and Info Block banner"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-color-bg.json",
+                    "name": "Testimonials Block on Color Bg"
+                }
+            ],
+            "filesize": 53019,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-2UC468R"
+        },
+        {
+            "filename": "bg-.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/bg--800x741.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/all-courses.json",
+                    "name": "All courses"
+                },
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                },
+                {
+                    "source": "templates\/prices-tables-block.json",
+                    "name": "Prices Tables Block"
+                },
+                {
+                    "source": "templates\/banner-block-style-5.json",
+                    "name": "Banner Block Style 5"
+                },
+                {
+                    "source": "templates\/banner-block-style-4.json",
+                    "name": "Banner Block Style 4"
+                },
+                {
+                    "source": "templates\/banner-block-style-1.json",
+                    "name": "Banner Block Style 1"
+                }
+            ],
+            "filesize": 175450,
+            "dimensions": [
+                1920,
+                1779
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-bubbles-colorful-backgrounds-vol-01-DWJZ3B"
+        },
+        {
+            "filename": "creative-teenaged-guy-working-on-project-at-cafe-ADBYWZ6.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/creative-teenaged-guy-working-on-project-at-cafe-ADBYWZ6-800x519.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/video-grid-block.json",
+                    "name": "Video Grid Block"
+                },
+                {
+                    "source": "templates\/events-boxes-block.json",
+                    "name": "Events Boxes Block"
+                },
+                {
+                    "source": "templates\/infosection-block-style-2.json",
+                    "name": "Infosection Block Style 2"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                },
+                {
+                    "source": "templates\/banner-block-style-1.json",
+                    "name": "Banner Block Style 1"
+                }
+            ],
+            "filesize": 118982,
+            "dimensions": [
+                1400,
+                908
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ADBYWZ6"
+        },
+        {
+            "filename": "1Ready-Made-Illustration-Color-5-2.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/1Ready-Made-Illustration-Color-5-2-800x528.png",
+            "templates": [
+                {
+                    "source": "templates\/all-courses.json",
+                    "name": "All courses"
+                },
+                {
+                    "source": "templates\/banner-block-style-5.json",
+                    "name": "Banner Block Style 5"
+                }
+            ],
+            "filesize": 57903,
+            "dimensions": [
+                924,
+                610
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/3d-digital-marketing-illustration-N2UZFBD"
+        },
+        {
+            "filename": "quote-left-1.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/quote-left-1.png",
+            "templates": [
+                {
+                    "source": "templates\/all-courses.json",
+                    "name": "All courses"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-white-bg.json",
+                    "name": "Testimonials Block on White Bg"
+                }
+            ],
+            "filesize": 541,
+            "dimensions": [
+                160,
+                140
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "programmer-using-laptop-at-work-8GKX5JY.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/programmer-using-laptop-at-work-8GKX5JY-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                }
+            ],
+            "filesize": 86232,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8GKX5JY"
+        },
+        {
+            "filename": "teen-boy-programming-on-laptop-4H9S6QL-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/teen-boy-programming-on-laptop-4H9S6QL-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/video-grid-block.json",
+                    "name": "Video Grid Block"
+                },
+                {
+                    "source": "templates\/courses-box-column-description-block.json",
+                    "name": "Courses Box Column Description Block"
+                },
+                {
+                    "source": "templates\/program-course-description-block.json",
+                    "name": "Program Course Description Block"
+                },
+                {
+                    "source": "templates\/infosection-block-style-2.json",
+                    "name": "Infosection Block Style 2"
+                }
+            ],
+            "filesize": 108910,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4H9S6QL"
+        },
+        {
+            "filename": "CLOCK-1-1.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/CLOCK-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/program-course-description-block.json",
+                    "name": "Program Course Description Block"
+                }
+            ],
+            "filesize": 6297,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-flat-color-icon-6MGPP4E"
+        },
+        {
+            "filename": "DELIVERY-CHART-.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/DELIVERY-CHART-.png",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/program-course-description-block.json",
+                    "name": "Program Course Description Block"
+                }
+            ],
+            "filesize": 3442,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-flat-color-icon-6MGPP4E"
+        },
+        {
+            "filename": "handsome-young-programmer-AWCPV7N-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/handsome-young-programmer-AWCPV7N-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/video-grid-block.json",
+                    "name": "Video Grid Block"
+                },
+                {
+                    "source": "templates\/program-course-description-block.json",
+                    "name": "Program Course Description Block"
+                }
+            ],
+            "filesize": 115137,
+            "dimensions": [
+                1400,
+                934
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AWCPV7N"
+        },
+        {
+            "filename": "quote-left2.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/quote-left2.png",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/testimonials-block-on-color-bg.json",
+                    "name": "Testimonials Block on Color Bg"
+                }
+            ],
+            "filesize": 662,
+            "dimensions": [
+                160,
+                140
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "young-bearded-businessman-in-suit-with-arms-crosse-NDGP97P.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/young-bearded-businessman-in-suit-with-arms-crosse-NDGP97P-800x775.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 89564,
+            "dimensions": [
+                1200,
+                1162
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-NDGP97P"
+        },
+        {
+            "filename": "portrait-of-beautiful-cheerful-redhead-girl-with-c-5W46N66.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/portrait-of-beautiful-cheerful-redhead-girl-with-c-5W46N66-800x981.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 166947,
+            "dimensions": [
+                1200,
+                1471
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5W46N66"
+        },
+        {
+            "filename": "business-concept-happy-confident-professional-afri-SEAMMPM-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/business-concept-happy-confident-professional-afri-SEAMMPM-1-800x1019.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 91489,
+            "dimensions": [
+                1200,
+                1528
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SEAMMPM"
+        },
+        {
+            "filename": "handsome-young-businessman-standing-by-gray-wall-s-F8F2T2W.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/handsome-young-businessman-standing-by-gray-wall-s-F8F2T2W-800x848.jpg",
+            "templates": [
+                {
+                    "source": "templates\/course-description.json",
+                    "name": "Course description"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 81936,
+            "dimensions": [
+                908,
+                962
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F8F2T2W"
+        },
+        {
+            "filename": "08-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2021\/01\/08-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/hero-block.json",
+                    "name": "Hero Block"
+                }
+            ],
+            "filesize": 11118,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-bubbles-colorful-backgrounds-vol-01-DWJZ3B"
+        },
+        {
+            "filename": "03.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2021\/01\/03-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/journal.json",
+                    "name": "Journal"
+                },
+                {
+                    "source": "templates\/prices-tables-block.json",
+                    "name": "Prices Tables Block"
+                },
+                {
+                    "source": "templates\/banner-block-style-3.json",
+                    "name": "Banner Block Style 3"
+                }
+            ],
+            "filesize": 15484,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-bubbles-colorful-backgrounds-vol-01-DWJZ3B"
+        },
+        {
+            "filename": "29.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2021\/01\/29-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/prices-tables-block.json",
+                    "name": "Prices Tables Block"
+                }
+            ],
+            "filesize": 12021,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-bubbles-colorful-backgrounds-vol-01-DWJZ3B"
+        },
+        {
+            "filename": "postpaid.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2021\/01\/postpaid.png",
+            "templates": [
+                {
+                    "source": "templates\/prices.json",
+                    "name": "Prices"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq-accordion-block.json",
+                    "name": "FAQ Accordion Block"
+                }
+            ],
+            "filesize": 36145,
+            "dimensions": [
+                634,
+                535
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/digital-wallet-3d-illustrations-part-2-NGLASK3"
+        },
+        {
+            "filename": "confident-young-woman-speaking-into-microphone-A86XFHT.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/confident-young-woman-speaking-into-microphone-A86XFHT-800x535.png",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/events-boxes-block.json",
+                    "name": "Events Boxes Block"
+                },
+                {
+                    "source": "templates\/infosection-block.json",
+                    "name": "Infosection Block"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                }
+            ],
+            "filesize": 307506,
+            "dimensions": [
+                1200,
+                802
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A86XFHT"
+        },
+        {
+            "filename": "bitcoin-miner-SXWBV7V-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/bitcoin-miner-SXWBV7V-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/events-boxes-block.json",
+                    "name": "Events Boxes Block"
+                }
+            ],
+            "filesize": 63774,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SXWBV7V"
+        },
+        {
+            "filename": "woman-working-indoors-at-home-office-corona-virus-BZWBZ7X.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/woman-working-indoors-at-home-office-corona-virus-BZWBZ7X-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/events-boxes-block.json",
+                    "name": "Events Boxes Block"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                }
+            ],
+            "filesize": 45438,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BZWBZ7X"
+        },
+        {
+            "filename": "business-woman-talking-in-front-of-camera-AFTE9PA.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/business-woman-talking-in-front-of-camera-AFTE9PA-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/events-boxes-block.json",
+                    "name": "Events Boxes Block"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                }
+            ],
+            "filesize": 58685,
+            "dimensions": [
+                1400,
+                788
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AFTE9PA"
+        },
+        {
+            "filename": "working-by-computer-US2BE6T.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/working-by-computer-US2BE6T-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/events-boxes-block.json",
+                    "name": "Events Boxes Block"
+                }
+            ],
+            "filesize": 257252,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-US2BE6T"
+        },
+        {
+            "filename": "mature-businessman-in-gray-suit-in-the-office-.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/mature-businessman-in-gray-suit-in-the-office--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 200243,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PTBVNJY"
+        },
+        {
+            "filename": "influencer-in-her-studio-recording-a-new-episode-92H33CN.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/influencer-in-her-studio-recording-a-new-episode-92H33CN-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 64442,
+            "dimensions": [
+                1400,
+                788
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-92H33CN"
+        },
+        {
+            "filename": "smart-work-and-alternative-office-worstation-with-4VNJW3N.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/smart-work-and-alternative-office-worstation-with-4VNJW3N-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/video-grid-block.json",
+                    "name": "Video Grid Block"
+                },
+                {
+                    "source": "templates\/infosection-block.json",
+                    "name": "Infosection Block"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                },
+                {
+                    "source": "templates\/banner-block-style-2.json",
+                    "name": "Banner Block Style 2"
+                }
+            ],
+            "filesize": 120938,
+            "dimensions": [
+                1400,
+                935
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4VNJW3N"
+        },
+        {
+            "filename": "pexels-julia-m-cameron-4144228.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/pexels-julia-m-cameron-4144228-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/video-with-description-block.json",
+                    "name": "Video With Description Block"
+                },
+                {
+                    "source": "templates\/courses-box-column-description-block.json",
+                    "name": "Courses Box Column Description Block"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                }
+            ],
+            "filesize": 138734,
+            "dimensions": [
+                1367,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4144228"
+        },
+        {
+            "filename": "happy-young-african-woman.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/happy-young-african-woman-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/video-with-description-block.json",
+                    "name": "Video With Description Block"
+                }
+            ],
+            "filesize": 191603,
+            "dimensions": [
+                1335,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P4BXCUK"
+        },
+        {
+            "filename": "creative-businesswoman-drawing-plans-using-colour-PVFQ3RQ.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/creative-businesswoman-drawing-plans-using-colour-PVFQ3RQ-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/video-grid-block.json",
+                    "name": "Video Grid Block"
+                }
+            ],
+            "filesize": 74350,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PVFQ3RQ"
+        },
+        {
+            "filename": "computer-screen-laptop-software-code-F6KTHBU-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/computer-screen-laptop-software-code-F6KTHBU-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/media-library.json",
+                    "name": "Media Library"
+                },
+                {
+                    "source": "templates\/courses-box-column-description-block.json",
+                    "name": "Courses Box Column Description Block"
+                }
+            ],
+            "filesize": 56612,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-F6KTHBU"
+        },
+        {
+            "filename": "online-tutoring-concept-friendly-african-lady-tuto-WWPAQGC.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/online-tutoring-concept-friendly-african-lady-tuto-WWPAQGC-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/journal.json",
+                    "name": "Journal"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                },
+                {
+                    "source": "templates\/banner-block-style-3.json",
+                    "name": "Banner Block Style 3"
+                }
+            ],
+            "filesize": 98264,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WWPAQGC"
+        },
+        {
+            "filename": "Setting.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2021\/01\/Setting.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                },
+                {
+                    "source": "templates\/banner-block-style-4.json",
+                    "name": "Banner Block Style 4"
+                }
+            ],
+            "filesize": 27650,
+            "dimensions": [
+                494,
+                378
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/digital-wallet-3d-illustrations-part-2-NGLASK3"
+        },
+        {
+            "filename": "portrait-of-happy-handsome-hispanic-man-smiling-wi-GKK3P8E.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/portrait-of-happy-handsome-hispanic-man-smiling-wi-GKK3P8E.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 21562,
+            "dimensions": [
+                564,
+                641
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GKK3P8E"
+        },
+        {
+            "filename": "portrait-of-handsome-businessman-posing-and-lookin-CMUZYHJ.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/portrait-of-handsome-businessman-posing-and-lookin-CMUZYHJ-800x1005.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 44941,
+            "dimensions": [
+                820,
+                1030
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CMUZYHJ"
+        },
+        {
+            "filename": "portrait-of-happy-mature-handsome-businessman-smil-AM5ZG4R.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/portrait-of-happy-mature-handsome-businessman-smil-AM5ZG4R-800x872.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 95732,
+            "dimensions": [
+                1082,
+                1179
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AM5ZG4R"
+        },
+        {
+            "filename": "portrait-of-handsome-businessman-with-arms-crossed-E854P8F.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/portrait-of-handsome-businessman-with-arms-crossed-E854P8F.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 54029,
+            "dimensions": [
+                800,
+                978
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E854P8F"
+        },
+        {
+            "filename": "confident-young-man-standing-with-arms-crossed-aga-7UX3CJB-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/confident-young-man-standing-with-arms-crossed-aga-7UX3CJB-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 27979,
+            "dimensions": [
+                605,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7UX3CJB"
+        },
+        {
+            "filename": "close-up-of-successful-happy-businesswoman-asian-f-WNQS86M-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/close-up-of-successful-happy-businesswoman-asian-f-WNQS86M-1-800x922.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 47428,
+            "dimensions": [
+                833,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WNQS86M"
+        },
+        {
+            "filename": "face-of-young-happy-african-businessman-in-suit-sm-7W6XKRV-1.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/face-of-young-happy-african-businessman-in-suit-sm-7W6XKRV-1-800x893.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 79821,
+            "dimensions": [
+                1184,
+                1321
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7W6XKRV"
+        },
+        {
+            "filename": "portrait-of-happy-handsome-hispanic-businessman-ho-KJGWB7Q.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/portrait-of-happy-handsome-hispanic-businessman-ho-KJGWB7Q-800x910.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/teachers-team-block.json",
+                    "name": "Teachers Team Block"
+                }
+            ],
+            "filesize": 40853,
+            "dimensions": [
+                838,
+                953
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KJGWB7Q"
+        },
+        {
+            "filename": "pexels-valeriia-miller-3392969.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/pexels-valeriia-miller-3392969-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/video-grid-block.json",
+                    "name": "Video Grid Block"
+                }
+            ],
+            "filesize": 166617,
+            "dimensions": [
+                1400,
+                1867
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3392969"
+        },
+        {
+            "filename": "Processing.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/Processing.png",
+            "templates": [
+                {
+                    "source": "templates\/login.json",
+                    "name": "Login"
+                }
+            ],
+            "filesize": 12079,
+            "dimensions": [
+                324,
+                284
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/digital-wallet-3d-illustrations-part-2-NGLASK3"
+        },
+        {
+            "filename": "handsome-young-programmer-AWCPV7N.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/handsome-young-programmer-AWCPV7N-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                }
+            ],
+            "filesize": 115137,
+            "dimensions": [
+                1400,
+                934
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AWCPV7N"
+        },
+        {
+            "filename": "group-of-business-UFKYH64.jpg",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/group-of-business-UFKYH64-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/edison-footer.json",
+                    "name": "Edison footer"
+                }
+            ],
+            "filesize": 65168,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UFKYH64"
+        },
+        {
+            "filename": "xs-Ready-Made-Illustration-Color-3-copy-1.png",
+            "thumbnail_url": "https:\/\/edison.templatekit.co\/wp-content\/uploads\/sites\/21\/2020\/12\/xs-Ready-Made-Illustration-Color-3-copy-1-800x505.png",
+            "templates": [
+                {
+                    "source": "templates\/header-hero-img-block.json",
+                    "name": "Header Hero Img Block"
+                }
+            ],
+            "filesize": 143302,
+            "dimensions": [
+                1229,
+                776
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/3d-e-learning-illustration-Y6HU84H"
+        }
+    ]
+}

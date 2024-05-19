@@ -1,0 +1,318 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DearPDF Lite\n"
+"POT-Creation-Date: 2023-02-10 22:17+0545\n"
+"PO-Revision-Date: 2023-02-10 21:47+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: dearpdf-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: dearpdf-pro.php:114 dearpdf-pro.php:126 dearpdf-pro.php:140 dearpdf.php:167
+#: dearpdf.php:177 dearpdf.php:188 dearpdf.php:199 dearpdf.php:212
+#: dearpdf.php:247
+msgid "Default Setting"
+msgstr ""
+
+#: dearpdf-pro.php:115
+msgid "Bottom"
+msgstr ""
+
+#: dearpdf-pro.php:116
+msgid "Top"
+msgstr ""
+
+#: dearpdf-pro.php:117
+msgid "Hidden"
+msgstr ""
+
+#: dearpdf-pro.php:217 dearpdf-pro.php:235 dearpdf-pro.php:245
+#: dearpdf-pro.php:302 dearpdf.php:189 dearpdf.php:213 dearpdf.php:248
+msgid "True"
+msgstr ""
+
+#: dearpdf-pro.php:218 dearpdf-pro.php:236 dearpdf-pro.php:246
+#: dearpdf-pro.php:303 dearpdf.php:190 dearpdf.php:214 dearpdf.php:249
+msgid "False"
+msgstr ""
+
+#: dearpdf-pro.php:529
+msgid "DearPDF Global Settings"
+msgstr ""
+
+#: dearpdf-pro.php:529
+msgid "Global Settings"
+msgstr ""
+
+#: dearpdf-pro.php:624 dearpdf.php:138
+msgid "General"
+msgstr ""
+
+#: dearpdf-pro.php:625 dearpdf.php:139 dearpdf.php:169
+msgid "Flipbook"
+msgstr ""
+
+#: dearpdf-pro.php:626 dearpdf.php:140
+msgid "Advanced"
+msgstr ""
+
+#: dearpdf-pro.php:637
+msgid "Update Settings"
+msgstr ""
+
+#: dearpdf-pro.php:787
+msgid "Settings updated."
+msgstr ""
+
+#: dearpdf.php:137
+msgid "Source"
+msgstr ""
+
+#: dearpdf.php:145
+msgid "Embed"
+msgstr ""
+
+#: dearpdf.php:150
+msgid "LightBox(Popup)"
+msgstr ""
+
+#: dearpdf.php:157
+msgid "PDF File"
+msgstr ""
+
+#: dearpdf.php:158
+msgid "Choose a PDF File to use as source for the book."
+msgstr ""
+
+#: dearpdf.php:159 dearpdf.php:161
+msgid "Select a PDF File"
+msgstr ""
+
+#: dearpdf.php:162
+msgid "Select PDF"
+msgstr ""
+
+#: dearpdf.php:168
+msgid "Vertical Reader"
+msgstr ""
+
+#: dearpdf.php:171
+msgid "Viewer Type"
+msgstr ""
+
+#: dearpdf.php:172
+msgid "Choose the Viewer Type. Flipbook or normal viewer"
+msgstr ""
+
+#: dearpdf.php:178
+msgid "WebGL 3D"
+msgstr ""
+
+#: dearpdf.php:179
+msgid "CSS 3D/2D"
+msgstr ""
+
+#: dearpdf.php:181
+msgid "Flipbook 3D or 2D"
+msgstr ""
+
+#: dearpdf.php:182
+msgid "Choose the mode of display. WebGL for realistic 3d"
+msgstr ""
+
+#: dearpdf.php:193
+msgid "Disable Partial Loading"
+msgstr ""
+
+#: dearpdf.php:194
+msgid ""
+"Partial loading, Chunk issues are discovered in some servers and browsers. "
+"Disabling range can fix that issue."
+msgstr ""
+
+#: dearpdf.php:200
+msgid "Left to Right"
+msgstr ""
+
+#: dearpdf.php:201
+msgid "Right to Left"
+msgstr ""
+
+#: dearpdf.php:204
+msgid "Reading Direction"
+msgstr ""
+
+#: dearpdf.php:205
+msgid ""
+"Choose if the PDF follows Left to Right or Right to Left Reading Direction."
+msgstr ""
+
+#: dearpdf.php:216
+msgid "Auto Enable Sound"
+msgstr ""
+
+#: dearpdf.php:217
+msgid "Enable or disable Sound when flipbook starts"
+msgstr ""
+
+#: dearpdf.php:222
+msgid "Background Color"
+msgstr ""
+
+#: dearpdf.php:223
+msgid ""
+"Background color in hexadecimal format eg:<code>#FFF</code> or "
+"<code>#666666</code> or <code>transparent</code>"
+msgstr ""
+
+#: dearpdf.php:224
+msgid "Example: #ffffff"
+msgstr ""
+
+#: dearpdf.php:230
+msgid "Background Image"
+msgstr ""
+
+#: dearpdf.php:231
+msgid "Background image JPEG or PNG format:"
+msgstr ""
+
+#: dearpdf.php:232
+msgid "Select an image"
+msgstr ""
+
+#: dearpdf.php:234
+msgid "Select Background Image"
+msgstr ""
+
+#: dearpdf.php:235
+msgid "Select Image"
+msgstr ""
+
+#: dearpdf.php:239
+msgid "Container Height"
+msgstr ""
+
+#: dearpdf.php:240
+msgid ""
+"Height of the flipbook container when in normal mode.<br> <code>500</"
+"code>for 500px <br> <code>auto</code>for autofit height <br> <code>100%</"
+"code>for 100% height (of parent element, else it will be 320px)."
+msgstr ""
+
+#: dearpdf.php:241
+msgid "Example: 500"
+msgstr ""
+
+#: dearpdf.php:251
+msgid "Enable Download"
+msgstr ""
+
+#: dearpdf.php:252
+msgid "Enable PDF download"
+msgstr ""
+
+#: dearpdf.php:307
+msgid "More Features in FULL VERSION!"
+msgstr ""
+
+#: dearpdf.php:310
+msgid "DEARPDF Settings"
+msgstr ""
+
+#: dearpdf.php:313 dearpdf.php:785
+msgid "Shortcode"
+msgstr ""
+
+#: dearpdf.php:786
+msgid "Last Modified"
+msgstr ""
+
+#: dearpdf.php:900 dearpdf.php:901 dearpdf.php:903
+msgid "DearPDF Post"
+msgstr ""
+
+#: dearpdf.php:902
+msgid "DearPDF"
+msgstr ""
+
+#: dearpdf.php:904
+msgid "Add Post"
+msgstr ""
+
+#: dearpdf.php:905
+msgid "Add New DearPDF Post"
+msgstr ""
+
+#: dearpdf.php:906
+msgid "New DearPDF Post"
+msgstr ""
+
+#: dearpdf.php:907
+msgid "Edit DearPDF Post"
+msgstr ""
+
+#: dearpdf.php:908
+msgid "View DearPDF Post"
+msgstr ""
+
+#: dearpdf.php:909
+msgid "All Post"
+msgstr ""
+
+#: dearpdf.php:910
+msgid "Search DearPDF Posts"
+msgstr ""
+
+#: dearpdf.php:911
+msgid "Parent DearPDF Posts:"
+msgstr ""
+
+#: dearpdf.php:912
+msgid "No DearPDF Posts found."
+msgstr ""
+
+#: dearpdf.php:913
+msgid "No DearPDF Posts found in Trash."
+msgstr ""
+
+#: dearpdf.php:918
+msgid "Description."
+msgstr ""
+
+#: dearpdf.php:1359
+msgid "FAQs"
+msgstr ""
+
+#: dearpdf.php:1360
+msgid "Tools & Diagnostic"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DearPDF Lite"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "PDF Viewer for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DearHive"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://dearhive.com/"
+msgstr ""

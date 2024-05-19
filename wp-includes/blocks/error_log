@@ -1,0 +1,4 @@
+[04-May-2024 02:27:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/landingu/ikatandinas.id/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/landingu/ikatandinas.id/wp-includes/blocks/index.php on line 8
